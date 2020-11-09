@@ -70,6 +70,7 @@ local.properties
 ## BloomReach Local Dev
 ##############################
 storage
+tomcat_binary
 
 ##############################
 ## Node

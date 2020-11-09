@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    spaintegration:
+      uri: http://www.spaintegration.com/spaintegration/nt/1.0
+      cnd: namespaces/spa-integration.cnd

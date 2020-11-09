@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <applicationSubModule>application</applicationSubModule>
+    <cmsDependenciesModule>cms-dependencies</cmsDependenciesModule>
+    <cmsModule>cms</cmsModule>
+    <confirmParams>false</confirmParams>
+    <developmentSubModule>development</developmentSubModule>
+    <enterprise>true</enterprise>
+    <extraTemplates>true</extraTemplates>
+    <hstRoot>/hst:spaintegration</hstRoot>
+    <projectNamespace>spaintegration</projectNamespace>
+    <repositoryDataModule>repository-data</repositoryDataModule>
+    <selectedBeansPackage>uk.co.manifesto.brxm.beans</selectedBeansPackage>
+    <selectedComponentsPackage>uk.co.manifesto.brxm.components</selectedComponentsPackage>
+    <selectedProjectPackage>uk.co.manifesto.brxm</selectedProjectPackage>
+    <selectedRestPackage>uk.co.manifesto.brxm.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <siteContextPath>/site</siteContextPath>
+    <siteModule>site</siteModule>
+    <useSamples>true</useSamples>
+    <webfileBundleName>site</webfileBundleName>
+    <webfilesSubModule>webfiles</webfilesSubModule>
+</project>

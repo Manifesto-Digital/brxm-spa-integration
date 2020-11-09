@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:namespaces/spaintegration/basedocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6f00faf4-c7ef-47e1-8b8b-47d9f012fadc
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c417ad2b-1f40-4506-a074-3386ae0cb7ec
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel']
+          hipposysedit:supertype: ['hippo:document', 'hippostdpubwf:document', 'hippostd:publishableSummary']
+          hipposysedit:uri: http://www.spaintegration.com/spaintegration/nt/1.0

@@ -1,0 +1,5 @@
+group: 
+  name: spa-integration
+project: spa-integration
+module:
+  name: spa-integration-repository-data-webfiles

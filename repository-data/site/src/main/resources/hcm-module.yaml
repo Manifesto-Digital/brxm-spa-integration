@@ -1,0 +1,6 @@
+group: 
+  name: spa-integration
+  after: hippo-cms
+project: spa-integration
+module:
+  name: spa-integration-repository-data-site

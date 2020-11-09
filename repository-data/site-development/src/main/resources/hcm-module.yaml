@@ -1,0 +1,6 @@
+site: spa-integration
+group: spa-integration
+project: spa-integration
+module:
+  name: spa-integration-repository-data-site-development
+  after: spa-integration-repository-data-site

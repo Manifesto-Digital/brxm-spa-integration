@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:sites/spaintegration:
+      jcr:primaryType: hst:site
+      hst:content: /content/documents/spaintegration

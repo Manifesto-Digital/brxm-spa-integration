@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/spaintegration/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /spaintegration-catalog:
+        jcr:primaryType: hst:containeritempackage

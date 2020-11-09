@@ -1,0 +1,7 @@
+/content/gallery/spaintegration:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 9238517f-37f9-49cc-905b-dd3589fd8503
+  hippo:name: manifesto-brxm-spa-integration
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

@@ -1,0 +1,78 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/spaintegration:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        spaintegration:content: Content
+        spaintegration:image: Image
+        spaintegration:link: Link
+        spaintegration:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        spaintegration:content: Inhoud
+        spaintegration:image: Afbeelding
+        spaintegration:link: Link
+        spaintegration:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        spaintegration:content: Contenu
+        spaintegration:image: Image
+        spaintegration:link: Lien
+        spaintegration:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        spaintegration:content: Inhalt
+        spaintegration:image: Abbildung
+        spaintegration:link: Link
+        spaintegration:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/spaintegration:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News Item
+        spaintegration:author: Author
+        spaintegration:content: Content
+        spaintegration:date: Date
+        spaintegration:image: Image
+        spaintegration:introduction: Introduction
+        spaintegration:location: Location
+        spaintegration:source: Source
+        spaintegration:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Nieuwsbericht
+        spaintegration:author: Auteur
+        spaintegration:content: Inhoud
+        spaintegration:date: Datum
+        spaintegration:image: Afbeelding
+        spaintegration:introduction: Introductie
+        spaintegration:location: Locatie
+        spaintegration:source: Bron
+        spaintegration:title: Titel
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News
+        spaintegration:author: Verfasser
+        spaintegration:content: Inhalt
+        spaintegration:date: Datum
+        spaintegration:image: Abbildung
+        spaintegration:introduction: Einführung
+        spaintegration:location: Standort
+        spaintegration:source: Quelle
+        spaintegration:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Message d'info
+        spaintegration:author: Auteur
+        spaintegration:content: Contenu
+        spaintegration:date: Date
+        spaintegration:image: Image
+        spaintegration:introduction: Introduction
+        spaintegration:location: Lieu
+        spaintegration:source: Source
+        spaintegration:title: Titre

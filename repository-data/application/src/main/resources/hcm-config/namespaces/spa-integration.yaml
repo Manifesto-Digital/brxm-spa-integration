@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/spaintegration:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 493a7a2a-6596-4a9b-81ca-866da977bc9e

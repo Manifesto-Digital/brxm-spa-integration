@@ -71,6 +71,7 @@ local.properties
 ##############################
 storage
 tomcat_binary
+essentials/overlays
 
 ##############################
 ## Node

@@ -32,4 +32,5 @@ Add CMS and Site deployment with their application context to be `/cms` and `/si
 Configure VM Options using the same attributes in which cargo passing to its JVM
 ![Image of configure VM Options](https://raw.githubusercontent.com/Manifesto-Digital/brxm-spa-integration/dev/doc/images/ConfigureVMOption.png)
 
-
+### Step 5: Start server
+You would start Tomcat embedded server as usual. If you need JRebel for code reloading, just run Tomcat with JRebel as you always do. 

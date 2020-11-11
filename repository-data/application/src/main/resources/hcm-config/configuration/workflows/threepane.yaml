@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:workflows/threepane/folder-permissions/frontend:renderer/custom-action:
+      jcr:primaryType: frontend:plugin
+      plugin.class: uk.co.manifesto.brxm.plugins.CustomWorkflowPlugin
+      wicket.id: ${item}

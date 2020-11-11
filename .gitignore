@@ -83,3 +83,8 @@ node_modules
 ##############################
 hotswap-agent/**
 **/hotswap-agent.properties
+
+##############################
+## JRebel
+##############################
+**/rebel.xml

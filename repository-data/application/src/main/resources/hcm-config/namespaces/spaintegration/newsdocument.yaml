@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: f659754a-2e56-49b8-a6fb-337ec2848d2d
+          jcr:uuid: 5ee90ed4-32d6-4075-8be1-f73a23ff80f4
           hipposysedit:node: true
           hipposysedit:supertype: ['spaintegration:basedocument', 'hippostd:relaxed',
             'hippotranslation:translated']
@@ -81,12 +81,20 @@ definitions:
             hipposysedit:path: spaintegration:location
             hipposysedit:primary: false
             hipposysedit:type: String
+          /choices:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: spaintegration:choices
+            hipposysedit:primary: false
+            hipposysedit:type: DynamicDropdown
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
           jcr:primaryType: spaintegration:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 93b46941-c491-431a-9874-1b7d5c05474d
+          jcr:uuid: 77918151-f091-4a6d-ad5a-9fd72ac449e0
           hippo:related___pathreference: []
           hippostd:holder: holder
           hippostd:state: draft
@@ -100,9 +108,13 @@ definitions:
           spaintegration:documenttype: news
           spaintegration:introduction: ''
           spaintegration:title: ''
+          spaintegration:location: ''
+          spaintegration:choices: ''
+          spaintegration:author: ''
+          spaintegration:source: ''
           /spaintegration:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <html><body></body></html>
+            hippostd:content: ''
           /spaintegration:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -189,3 +201,13 @@ definitions:
             wicket.id: ${cluster.id}.right.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
+          /choices:
+            jcr:primaryType: frontend:plugin
+            caption: Choices
+            field: choices
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              valuelistProvider: custom.valuelist.provider

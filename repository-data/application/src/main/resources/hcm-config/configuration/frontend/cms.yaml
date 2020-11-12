@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/CustomValueListProvider:
+      jcr:primaryType: frontend:plugin
+      plugin.class: uk.co.manifesto.brxm.frontend.provider.CustomValueListProvider
+      valuelist.provider: custom.valuelist.provider

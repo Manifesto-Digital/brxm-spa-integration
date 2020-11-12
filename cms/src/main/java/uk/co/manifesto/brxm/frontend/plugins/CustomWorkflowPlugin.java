@@ -1,4 +1,4 @@
-package uk.co.manifesto.brxm.plugins;
+package uk.co.manifesto.brxm.frontend.plugins;
 
 import org.apache.wicket.Component;
 import org.apache.wicket.model.StringResourceModel;

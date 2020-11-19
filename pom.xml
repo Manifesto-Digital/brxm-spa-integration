@@ -88,6 +88,18 @@
       <name>Hippo Enterprise Maven 2</name>
       <url>https://maven.onehippo.com/maven2-enterprise</url>
     </repository>
+    <repository>
+      <id>hippo-forge</id>
+      <name>Bloomreach Forge Maven 2 repository.</name>
+      <url>https://maven.onehippo.com/maven2-forge/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <layout>default</layout>
+    </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>

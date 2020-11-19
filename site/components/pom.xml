@@ -11,6 +11,12 @@
   <name>manifesto-brxm-spa-integration Site Components</name>
   <description>manifesto-brxm-spa-integration Site Components</description>
 
+  <properties>
+    <mockito.version>3.3.0</mockito.version>
+    <brut.version>3.0.1</brut.version>
+    <junit-jupiter.version>5.6.0</junit-jupiter.version>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
@@ -49,6 +55,38 @@
       <type>pom</type>
     </dependency>
 
+    <dependency>
+      <groupId>org.bloomreach.forge.brut</groupId>
+      <artifactId>brut-components</artifactId>
+      <version>${brut.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.bloomreach.forge.brut</groupId>
+      <artifactId>brut-resources</artifactId>
+      <version>${brut.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <scope>test</scope>
+      <version>${junit-jupiter.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <scope>test</scope>
+      <version>${junit-jupiter.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>${mockito.version}</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
   <build>
     <resources>
